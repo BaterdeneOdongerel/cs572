@@ -1,0 +1,17 @@
+﻿Question1.
+	
+Question2.
+We use setImmediate if we want to queue the function behind whatever I/O event callbacks that are already in the event queue. 
+We use process.nextTick to effectively queue the function at the head of the event queue so that it executes immediately after the current function completes.
+
+Question3.
+	1. Assert
+	2. Buffer
+	3. Cluster
+	4. dns
+	5. fs
+	6. http	
+	7. https
+	8. path	
+	9. readline	
+	10. url

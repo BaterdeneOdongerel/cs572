@@ -1,0 +1,13 @@
+﻿Book {
+	_id: objectId(),
+	bookname: "nameofBook"
+	ISBN: 123123123,
+	author:{
+		authorname: "Name"
+	},
+	return_date: "06-04-2018"
+}
+Student {
+	_id: objectId(),
+	borrowed_books :[],
+}

@@ -1,0 +1,2 @@
+1. db.data.aggregate([ { $match:{state:"IA"}} , { $project: {_id:0, 'zipcode':'$pop'} } ]);
+2. db.data.aggregate([ { $match:{pop:{ $lt : 1000 }}} , { $project: {_id:0, 'zip code':'$_id'} }]);
